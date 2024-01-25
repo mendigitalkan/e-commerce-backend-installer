@@ -28,4 +28,4 @@ app.routes = (0, v1_1.appRouterV1)(app);
 app.listen(configs_1.CONFIG.port, function () {
     console.log("listening on ".concat(configs_1.CONFIG.appUrl, ":").concat(configs_1.CONFIG.port, "/api/v1"));
 });
-exports.default = app;
+
