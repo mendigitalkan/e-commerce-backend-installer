@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "tsc",
     "start": "node app.js",
     "dev": "nodemon app.ts",
     "migrate:up": "npx sequelize-cli db:migrate",
