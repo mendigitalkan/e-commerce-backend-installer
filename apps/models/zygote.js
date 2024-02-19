@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.ZygoteModel = void 0;
-var sequelize_1 = require("sequelize");
+const sequelize_1 = require("sequelize");
 exports.ZygoteModel = {
     id: {
         type: sequelize_1.DataTypes.BIGINT,

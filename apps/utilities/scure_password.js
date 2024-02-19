@@ -4,7 +4,7 @@ exports.hashPassword = void 0;
 /* eslint-disable @typescript-eslint/space-before-function-paren */
 /* eslint-disable @typescript-eslint/no-var-requires */
 /* eslint-disable @typescript-eslint/explicit-function-return-type */
-var configs_1 = require("../configs");
+const configs_1 = require("../configs");
 function hashPassword(password) {
     return require('crypto')
         .createHash('sha1')

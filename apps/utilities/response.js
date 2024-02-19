@@ -2,10 +2,10 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.ResponseData = void 0;
 /* eslint-disable @typescript-eslint/consistent-type-assertions */
-var configs_1 = require("../configs");
-var log_1 = require("./log");
+const configs_1 = require("../configs");
+const log_1 = require("./log");
 exports.ResponseData = {
-    error: function (message) {
+    error: (message) => {
         log_1.CONSOLE.error(message);
         return {
             request_param: '',
